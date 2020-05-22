@@ -1,0 +1,7 @@
+syntax = "proto2";
+
+package ssilve1989.tsproto;
+
+message HelloReply {
+  required string reply = 1;
+}

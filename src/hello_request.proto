@@ -1,0 +1,9 @@
+syntax = "proto2";
+
+package ssilve1989.tsproto;
+
+import "google/protobuf/wrappers.proto";
+
+message HelloRequest {
+  optional google.protobuf.StringValue name = 1;
+}
